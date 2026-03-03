@@ -1,0 +1,2 @@
+LEAGUE = 'EPL'
+DIVISION_CODE = 'E0'
