@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plbias"
+version = "0.1.0"
+description = "Premier League bookmaker bias research"
+authors = [{name = "Your Name"}]
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
