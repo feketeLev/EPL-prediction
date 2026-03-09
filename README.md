@@ -1,6 +1,11 @@
-# EPL-prediction
-This repositary will be a project for sport betting - the goal is the beat the bookmakers.
-I will use the data "Beat The Bookie: Odds Series Football Dataset" from kaggle, and will work based on the article: "Beating​ ​ the​ ​ bookies​ ​ with​ ​ their​ ​ own​ ​ numbers​ ​-​ ​ and​ ​ how​ ​ the online​ ​ sports​ ​ betting​ ​ market​ ​ is​ ​ rigged".
+# Betting project
 
-This article uses simple methods, and i will try to implement ML to imporve the EV.
+Scaffold for:
+- market efficiency checks
+- value betting baseline
+- ML bet selection
+- backtests
 
+## Setup
+python -m venv .venv
+pip install -r requirements.txt
