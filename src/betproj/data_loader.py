@@ -20,8 +20,7 @@ def read_csv_flexible(path: Path) -> pd.DataFrame:
 
 
 def load_closing_odds() -> pd.DataFrame:
-    print("RAW_DIR:", RAW_DIR)
-    #return read_csv_flexible(RAW_DIR / "closing_odds.csv.gz")
+    return read_csv_flexible(RAW_DIR / "closing_odds.csv.gz")
     
 
 
